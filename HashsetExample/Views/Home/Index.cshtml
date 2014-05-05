@@ -1,0 +1,31 @@
+﻿@model HashsetExample.Models.HomeIndexViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HashSet Example</title>
+
+    <script src="~/Content/js/jquery.min.js"></script>
+    <script src="~/Content/js/home.index.js"></script>
+</head>
+<body>
+    <div>
+        <span>Add a new food</span>
+        <input type="text" data-food />
+        <input type="button" data-food-submit value="Add this food"/>
+        
+        <div style="margin-top: 50px;">
+            <table>
+                @foreach (var food in Model.foods)
+                {
+                    <tr>
+                        <td>@food</td>
+                    </tr>
+                }
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
