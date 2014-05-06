@@ -9,7 +9,7 @@ namespace HashsetExample.Helpers
     {
         public HashSet<string> InitializeHashset()
         {
-            return new HashSet<string>()
+            return new HashSet<string>(StringComparer.OrdinalIgnoreCase)
             {
                 "Cheeseburger",
                 "Hot Dog",
