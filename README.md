@@ -1,5 +1,4 @@
 HashsetExample
 ==============
-http://www.brandonnicoll.com/2014/05/unique-collections-with-hashset.html
-
+http://nicoll.io/hashset/
 http://hashset.azurewebsites.net/
